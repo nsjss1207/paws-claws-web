@@ -27,6 +27,16 @@ sliders.forEach(slider => {
   appearOnScroll.observe(slider);
 });
 
+const volunteerBtn = document.querySelector('.volunteer');
+volunteerBtn.addEventListener('click', function () {
+  console.log(2);
+  window.open(
+    'https://docs.google.com/forms/d/e/1FAIpQLSfB1HVhK-kElWkIRvOcgxJ5r1rACupW2Oj7ph8lk3p1DpsIXg/viewform',
+    '_self',
+    false
+  );
+});
+
 const instaBtn = document.querySelector('.insta-img');
 instaBtn.addEventListener('click', function () {
   window.open('https://www.instagram.com/pawsandclawslko/?hl=en');
